@@ -1,0 +1,24 @@
+# dependencies & builds
+node_modules/
+dist/
+.vite-cache/
+*.log
+
+# secrets & signing keys — never commit
+.env
+.env.*
+*.jks
+*.keystore
+signing/
+firebase-debug.log
+.firebase/
+
+# shop data exports (contain customer names, phones, balances)
+*-backup-*.json
+*-report-*.csv
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

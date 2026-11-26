@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#166534"/>
+      <stop offset="1" stop-color="#0b3d22"/>
+    </linearGradient>
+    <linearGradient id="egg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf7"/>
+      <stop offset="1" stop-color="#f3e6c8"/>
+    </linearGradient>
+    <linearGradient id="vel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <!-- vel (spear) behind the egg -->
+  <path d="M64 12c9 9 12 19 9 29l-6 6v65h-6V47l-6-6c-3-10 0-20 9-29z" fill="url(#vel)"/>
+  <!-- egg -->
+  <path d="M64 46c15 0 27 19 27 36 0 15-12 26-27 26S37 97 37 82c0-17 12-36 27-36z" fill="url(#egg)"/>
+  <ellipse cx="55" cy="68" rx="6" ry="9" fill="#ffffff" opacity=".75"/>
+</svg>
